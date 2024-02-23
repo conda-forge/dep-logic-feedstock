@@ -1,5 +1,5 @@
 {% set name = "dep-logic" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dep_logic-{{ version }}.tar.gz
-  sha256: 70acdca956121b9dcbdfe1334cfbfd564075b679bbc9821fc7263658e015b2b3
+  sha256: cff502b515aff2d413d19d6afc70174fc67da19e821be4a9b68460ccee2514c9
 
 build:
   noarch: python
